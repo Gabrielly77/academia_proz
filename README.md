@@ -1,2 +1,25 @@
 # academia_proz
 lógica
+
+programa Academia
+
+var 
+    contador, quantidade: inteiro
+    nomeExercicio: cadeia
+
+inicio
+
+    contador <- 1
+    escreva("Quantidade de séries feitas hoje? ")
+    leia(quantidade)
+    escreva("Nome do exercício: ")
+    leia(nomeExercicio)
+    
+    enquanto(contador <= quantidade) faca
+        escreva("Séries feitas hoje: ", contador)
+        contador <- contador + 1
+    fimenquanto
+    
+    escreva("Nome do exercício: ", nomeExercicio)
+
+fimalgoritmo
